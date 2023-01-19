@@ -1,0 +1,313 @@
+.topbar{
+	margin-bottom: 0;
+	background: #232f3e;
+	color: #fca717;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.topbar	a{
+	padding-left: 15px;
+	 color: #fca717;
+}
+.navbar-inverse .navbar-brand {
+    color: #232f3e;
+}
+.navbar-inverse {
+    background-color: #232f3e;
+    border-color: #232f3e;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #232f3e;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fca717;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fca717;
+    background-color: #232f3e;
+}
+
+.progress{
+	margin-bottom: 5px;
+}
+
+#bottom{
+	padding: 5px 0 20px 0;
+	border-top: 1px solid #f5f5f5;
+	text-align: center;
+}
+
+
+
+.tm-box{
+	margin-bottom: 15px;
+	border: 3px solid darkred;
+}
+.tm-box .price{
+	padding: 7px 15px;
+	background-color: darkred;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.m-b-15{
+	margin-bottom: 15px;
+}
+.login-bg{
+	background: url(../img/login/1.png) center;
+}
+.w-100{
+	width: 100%;
+}
+
+
+
+.hover_css3{
+	transition: all 0.3s;
+}
+
+.hover_css3:hover{
+	transform: scale(0.8);
+}
+
+
+.hover_bg_text:hover{
+	background: #3674db;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*xs*/
+@media (max-width: 767px) {
+	.row-more-title{
+		display: none;
+	}
+	.breadcrumb{
+		margin-bottom: 0px !important;
+	}
+
+	.logo-box{
+		text-align: center;
+	}
+	.top-cart{
+		display: none;
+	}
+	.row-tj img{
+		max-width: 100%;
+	}
+	.row-tj div{
+		text-align: center;
+	}
+	
+	.row-ppsg div{
+		text-align: center;
+	}
+	
+	.row-ppsg img{
+		margin: 10px auto;
+		max-width: 70%;
+	}
+	
+	.tab-content{
+		padding: 15px;
+		background: #fff;
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.row-tab img {
+		padding-bottom: 10px;
+		max-width: 100%;
+	}
+	
+	.index_jumbotron{
+		padding-left:25px;
+		background: url(../img/index/jm.jpg) left top no-repeat; color: #fff;
+		background: cover;
+		margin-bottom: 20px;
+	}
+	
+	.xs_sm_p_b_15{
+		padding-bottom: 15px;
+	}
+	.alert{
+		margin-bottom: 0;
+	}
+	
+	/* 产品详情页 开始 */
+	body.details h1{
+		margin: 0;
+		padding: 15px 0 0 0;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.details-thum{
+		 padding: 0 10px !important;
+	}
+	.details-thum > div{ padding: 4px !important;}
+	/* 产品详情页 结束 */
+	
+	/* 购物车列表-开始 */
+	.row-shoppingCart{
+		padding:0 15px;
+		border:1px solid rgba(0,0,0,.1);
+		margin: 0 0 15px 0 !important;
+		padding: 10px;
+		background-color: #fff;
+		transition: all 0.3s;
+	}
+	.row-shoppingCart > div{
+		padding: 0 5px !important;
+	}
+	
+	/* 购物车列表-结束 */
+}
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*lg*/
+@media (min-width: 1200px) {
+	
+	.breadcrumb{
+		margin-bottom: 7px !important;
+	}
+	
+	/* 首页 */
+	.row-top{
+		padding: 10px 0;
+	}
+	.navbar-brand{
+		display: none;
+	}
+	.top-cart{
+		padding-top: 45px;
+		text-align: right;
+	}
+	.top{
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+	}
+	.search-bar{
+		padding-top: 45px;
+	}
+	.row-tj img{
+		max-width: 100%;
+	}
+	.row-tj div{
+		text-align: center;
+	}
+	
+	.row-ppsg div{
+		text-align: center;
+	}
+	
+	.row-ppsg img{
+		margin: 10px auto;
+		max-width: 50%;
+	}
+	
+	.tab-content{
+		padding: 15px;
+		background: #fff;
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.row-tab {
+		text-align: center;
+	}
+	.row-tab img{
+		max-width: 100%;
+	}
+	h5{
+		margin: 0 0 10px 0;
+	}
+	.alert{
+		margin: 2px auto !important;
+	}
+	.index_jumbotron{
+		margin-bottom: 20px;
+		background: url(../img/index/jm.jpg) left top no-repeat; color: #fff;
+	}
+	
+	.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+	    z-index: 2;
+	    color: #fff;
+	    background-color: #d43120;
+	    border-color: #d43120;
+	}
+	
+	/* 产品详情页 开始 */
+	body.details h1{
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.details-thum{
+		 padding: 0 10px !important;
+	}
+	.details-thum > div{ padding: 5px !important;}
+	.details_price{
+		font-size: 24px;
+		color: red;
+	}
+	
+	.num-add,.num-subtract{
+		cursor: pointer;
+	}
+	.well{
+		background: #fff;
+	}
+	
+	#products_01 img{
+		margin: 0 auto;
+	}
+	
+	.details-tj-panel-body{
+		min-height: 353px;
+	}
+	/* 产品详情页 结束 */
+	
+	
+	/* 购物车列表-开始 */
+	#checkAll{
+		margin-top: -10px;
+	}
+	.row-shoppingCart{
+		border:1px solid rgba(0,0,0,.1);
+		margin: 0 0 15px 0 !important;
+		padding: 10px;
+		background-color: #fff;
+		transition: all 0.3s;
+	}
+	.row-shoppingCart:hover{
+		background-color: rgba(0,0,0,.02);
+	}
+	.row-shoppingCart .morec_check{
+		padding-top: 10px;
+		
+	}
+	.row-shoppingCart .title{
+		padding-top: 20px;
+		
+	}
+	
+	.row-shoppingCart .price{
+		padding-top: 15px;
+		font-size: 20px;
+		color: red;
+	}
+	.row-shoppingCart .del{
+		padding-top: 15px;
+		
+	}
+	/* 购物车列表-结束 */
+}

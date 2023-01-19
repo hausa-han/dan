@@ -1,0 +1,386 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>购物车-冠马逊</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		 
+		
+		
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						欢迎光临冠马逊！<a href="index.html">回到首页</a>
+					</div>
+					<div class="col-md-6 text-right">
+						<a href="gouWuChe.html" ><span class="glyphicon glyphicon-shopping-cart"></span> 购物车</a>
+						admin, <a href="login.html">[退出]</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid top" style="background: #1f1d1b; padding: 0;">
+			<div class="container">
+				
+				<div class="row row-top">
+					<div class="col-md-3 logo-box">
+						<img src="img/index/logo.png" width="120px"  >
+					</div>
+					<div class="col-md-5 search-bar hidden-sm hidden-xs">
+						 <div class="input-group">
+							<input type="text" class="form-control" placeholder="输入关键词 点击搜索...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">搜索</button>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-4 top-cart" style="color: #fca717;">
+						客服热线：001-123-456-7890
+					</div>
+				</div>
+				
+				<nav class="navbar navbar-inverse" role="navigation" style="margin-bottom: 0;">
+					<div class="navbar-header">
+						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+						 <span class="icon-bar"></span><span class="icon-bar"></span></button> 
+						 <a class="navbar-brand" href="#">菜单</a>
+					</div>
+					
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav" >
+							<li >
+								<a href="index.html"><i class="glyphicon glyphicon-home" ></i> 首页</a>
+							</li>										
+							<li class="active">
+								 <a href="dianZiChanPin.html"> 电子产品</a>
+							</li>
+							<li>
+								 <a href="haoPingRuChao.html"> 好评如潮</a>
+							</li>
+							<li>
+								 <a href="fuLiJiDi.html"> 福利基地</a>
+							</li>
+							<li>
+								 <a href="jinRiTeMai.html"> 今日热卖</a>
+							</li>
+							<li>
+								<a href="pinPaiGuShi.html"> 品牌故事</a>
+							</li>
+							<li>
+								<a href="guanYuWoMen.html"> 关于我们</a>
+							</li>	
+						</ul>
+						
+					</div>	
+				</nav>
+			</div>
+		</div>
+		<div class="container container-cart">
+			<ul class="breadcrumb">
+				<li><a href="#">首页</a></li>   
+				<li class="active">购物车</li>
+			</ul>
+				<div class="row hidden-sm hidden-xs">
+					<div class="col-md-1 text-left">
+						<div class="form-group" id="checkAll">
+							<div class="col-sm-offset-2 m-l-0 col-sm-10">
+							  <div class="checkbox">
+								<label>
+								  <input type="checkbox">全
+								</label>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1">图片</div>
+					<div class="col-md-7 ">名称</div>
+					<div class="col-md-2">价格</div>
+					<div class="col-md-1">操作</div>
+				</div>
+				<div id="all-list">	
+				
+					<div class="row row-shoppingCart">
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-1.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">Lenovo IdeaPad 1i Laptop 14" HD Display, Intel Pentium Silver N5030 Processor(4-Core, up to 3.1 GHz), 4GB RAM...... </div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$219
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+						
+					<div class="row row-shoppingCart">				
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-2.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">ASUS Laptop L210 11.6” ultra thin, Intel Celeron N4020 Processor, 4GB RAM, 64GB eMMC storage......</div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$869
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+					
+					<div class="row row-shoppingCart">
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-3.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">ASUS Laptop L210 11.6” ultra thin, Intel Celeron N4020 Processor, 4GB RAM, 64GB eMMC storage……</div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$119
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+					
+					<div class="row row-shoppingCart">
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-8.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">2022 HP Notebook 15 Laptop, 15.6 Full HD 1080P Display, AMD Ryzen 5 5500U HexaCore...</div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$536
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+					
+					<div class="row row-shoppingCart">
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-9.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">ASUS VivoBook 14 Laptop Computer, 14" IPS FHD Display, Intel Core i3-1115G4 Processor, 4GB DDR4, ...</div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$239
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+					
+					<div class="row row-shoppingCart">
+						<div class="col-md-1 morec_check text-left hidden-xs hidden-sm">
+							<div class="form-group">
+								<div class="col-sm-offset-2 m-l-0 col-sm-10">
+								  <div class="checkbox">
+									<label>
+									  <input type="checkbox">
+									</label>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<img src="img/index/cp-10.JPG" class="img-responsive" >
+						</div>
+						<div class="col-md-7 col-sm-6 col-xs-6 title">ASUS Chromebook C203XA Rugged & Spill Resistant Laptop, 11.6" HD, 180 Degree, MediaTek Quad-Core Processor, ...</div>
+						<div class="col-md-2 col-sm-2 col-xs-2 price">
+							$119
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2 del text-right">
+							<a href="#" class="btn-del btn btn-danger btn-sm">删除</a>
+						</div>			
+					</div>	
+					
+					
+				</div> 
+				<div class="row hidden-sm hidden-xs">
+					<div class="col-md-3">
+						<a href="#" class="btn btn-warning" id="btn-Alldel">批量删除</a>
+					</div>	
+				</div>
+			
+		</div>	
+		<div class="container">
+			<div id="bottom">
+				豫ICP备-xxxxxxxxxx
+			</div>
+		</div>
+
+	</body>
+</html>
+
+<script src="js/jquery.2.2.1.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+
+	$(".container-cart :checkbox:first").change(function(){
+			
+			$(this).closest(".container-cart")
+				 .find(":checkbox:not(:first)")
+				 .prop("checked", this.checked);
+	});
+	
+	$("#btn-Alldel").click(function(){
+		
+		if(confirm("确定批量删除？"))
+		{
+			var all_checked = $("#all-list input:checked");
+			for(var i=0;i< all_checked.length;i++) 
+			{ 
+				all_checked.eq(i).parent().parent().parent().parent().parent().parent().remove();
+			}
+		}
+		
+	})
+	
+	$(function(){	
+		$(".btn-del").click(function(){
+			if(confirm("确定删除？"))
+			{
+				$(this).parent().parent().remove();
+			}
+		});	
+	});
+	
+</script>
+
+
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<form role="form">
+						  <div class="form-group">
+							<label for="name">用户名</label>
+							<input type="text" class="form-control" id="name" placeholder="请输入名称">
+						  </div>
+						  <div class="form-group">
+							<label for="name">密码</label>
+							<input type="password" class="form-control" id="name" placeholder="请输入密码">
+						  </div>
+						  
+						  <button type="submit" class="btn btn-success">登录</button>
+						</form>
+					</div>	
+				</div>	
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-reg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">注册</h4>
+            </div>
+            <div class="modal-body">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<form role="form">
+						  <div class="form-group">
+						    <label for="name">用户名</label>
+						    <input type="text" class="form-control" id="name" placeholder="请输入用户名">
+						  </div>
+						  <div class="form-group">
+						    <label for="name">手机号</label>
+						    <input type="text" class="form-control" id="name" placeholder="请输入手机号">
+						  </div>
+						  <div class="form-group">
+						    <label for="name">邮箱</label>
+						    <input type="text" class="form-control" id="name" placeholder="请输入邮箱">
+						  </div>
+						  <div class="form-group">
+						    <label for="name">密码</label>
+						    <input type="password" class="form-control" id="name" placeholder="请输入密码">
+						  </div>
+						  <div class="form-group">
+						    <label for="name">再次密码</label>
+						    <input type="password" class="form-control" id="name" placeholder="请再次输入密码">
+						  </div>
+						  
+						  <button type="submit" class="btn btn-success">马上注册</button>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
